@@ -6,11 +6,11 @@ const NavLinks = () => {
   const [active, setActive] = useState("")
 
   return (
-    <ul className="flex gap-x-5 justify-evenly">
+    <ul className="flex flex-wrap justify-end gap-x-4 xl:gap-x-20">
       {navLinks.map((link) => (
         <li onClick={() => setActive(link.name)} key={link.name} className={`${
           active == link.name ? 'text-black-200' : 'text-white'
-        } hover:scale-105 hover:text-black-50 text-2xl transition-transform duration-150 ease-in`}>
+        } hover:scale-105 hover:text-black-50 text-lg xl:text-2xl transition-transform duration-150 ease-in`}>
           <Link to={`/${link.route}`}>{link.name}</Link>
         </li>
       ))}
@@ -32,7 +32,7 @@ const NavBar = () => {
           </Link>
         </div>
 
-        <div className="w-1/3">
+        <div className="w-full">
           <NavLinks />
         </div>
       </nav>
