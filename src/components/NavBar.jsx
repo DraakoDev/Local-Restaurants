@@ -6,7 +6,7 @@ const NavLinks = () => {
   const [active, setActive] = useState("")
 
   return (
-    <ul className="flex flex-wrap justify-end gap-x-4 xl:gap-x-20">
+    <ul className="flex flex-wrap justify-end gap-x-8 xl:gap-x-24 px-16">
       {navLinks.map((link) => (
         <li onClick={() => setActive(link.name)} key={link.name} className={`${
           active == link.name ? 'text-black-200' : 'text-white'

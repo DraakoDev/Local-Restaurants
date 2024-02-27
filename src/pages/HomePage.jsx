@@ -1,7 +1,7 @@
 const HomePage = () => {
   return (
     <>
-      <main className="flex items-center bg-black-600 p-12 text-white">
+      <main className="flex items-center h-screen bg-black-600 p-12 text-white">
         <div className="h-full">
           <h2 className="font-bold text-3xl mb-4">
             Encuentra tus Restaurantes mas Cercanos
