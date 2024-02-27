@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 const HomePage = () => {
   return (
     <>
-      <main className="text-white flex flex-col xl:flex-row-reverse justify-center items-center">
+      <main className="text-white flex flex-col xl:flex-row-reverse justify-center items-center relative min-h-screen">
         <figure className="w-[350px] sm:w-3/4 lg:w-1/2 h-auto flex justify-center items-center px-20">
           <img src="/image-home-page.png" alt="Hamburger" className="" />
         </figure>
