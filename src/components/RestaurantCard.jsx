@@ -6,7 +6,7 @@ function RestaurantCard({ id, direction, category, image, name, page }) {
   const [like, setLike] = useState(true);
 
   return (
-    <div className="w-[300px] h-[400px] bg-black-600 p-4 rounded-lg m-4 text-white flex flex-col justify-between hover:scale-110 transition-transform duration-300">
+    <div className="w-[300px] h-[400px] bg-black-600 rounded-lg m-4 text-white flex flex-col justify-between hover:scale-105 transition-transform duration-300 p-8">
       <img loading="lazy" src={image} alt={name} />
       <span className="text-2xl font-bold ">{name}</span>
       <span>
