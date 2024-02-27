@@ -5,6 +5,7 @@ const navLinks = [
 
 const restaurants = [
   {
+    id: 1,
     name: "Restaurante La Barra",
     image: "barra",
     direction: "Cl. 6 #79f - 17",
@@ -14,6 +15,7 @@ const restaurants = [
       "Este restaurante informal y acogedor ofrece platos colombianos tradicionales, además de cerveza artesanal y cócteles. En su ambiente rústico, con vigas de madera a la vista, se sirven platos como bandeja paisa, ajiaco y arepas.",
   },
   {
+    id: 2,
     name: "In Situ",
     image: "situ",
     direction: "Cra. 11 #93A-43",
@@ -23,6 +25,7 @@ const restaurants = [
       "Este restaurante elegante, con un ambiente íntimo y moderno, ofrece un menú degustación de alta cocina colombiana con un toque creativo. Su chef, Juan Manuel Barrientos, utiliza ingredientes locales frescos y de temporada para crear platos únicos y sorprendentes.",
   },
   {
+    id: 3,
     name: "Leo Cocina y Cava",
     image: "leo",
     direction: "Cl. 70 #4-69",
@@ -32,6 +35,7 @@ const restaurants = [
       "Este restaurante, ubicado en una hermosa casa colonial, ofrece un menú de cocina colombiana moderna con un toque internacional. El chef, Leonardo Espinosa, se especializa en platos elaborados con ingredientes frescos y de temporada, y su carta de vinos ofrece una amplia selección de vinos nacionales e internacionales.",
   },
   {
+    id: 4,
     name: "Andrés Carne de Res",
     image: "andres",
     direction: "Cra. 4 #69A-52",
@@ -41,6 +45,7 @@ const restaurants = [
       "Este restaurante, famoso por su ambiente fiestero y su decoración extravagante, ofrece una amplia variedad de platos colombianos, incluyendo carnes a la parrilla, mariscos y platos típicos de la región. También cuenta con un bar con música en vivo y una pista de baile.",
   },
   {
+    id: 5,
     name: "El Chato",
     image: "chato",
     direction: "Cl. 23 #6-41",
